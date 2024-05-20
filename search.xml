@@ -18,4 +18,35 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title></title>
+    <url>/2024/05/20/DDPM/</url>
+    <content><![CDATA[<p><a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Models</a> 2020</p>
+<h2 id="总体过程"><a href="#总体过程" class="headerlink" title="总体过程"></a>总体过程</h2><p>分为正向过程和逆向过程。</p>
+<p>正向过程用 $q(x_t|x_{t-1})$ 表示，理解为以固定方式添加噪声，破坏原有的数据分布。</p>
+<p>逆向过程用  $p_\theta(x_{t-1}|x_t)$ 表示，理解为从噪声中重建出数据分布的过程。$\theta$ 表示涉及模型的参数。<br><img src="/Assets/f604799df1c26e57ae4d557771ccf31.jpg"></p>
+<h2 id="正向过程"><a href="#正向过程" class="headerlink" title="正向过程"></a>正向过程</h2><p>从真实数据分布 $X_0 \sim q(x)$ 中采样得到数据点 $x_0$（其实是一张图），在每一个时间步 t 上添加噪声，得到加噪后的样本 $x_t$。t 不断增大，直到最终 T 时刻称为各项独立的高斯分布。加噪方式为：<br>$$<br>q\left( x_t|x_{t-1}\right ):&#x3D;N\left(\sqrt{1-\beta_t}x_{t-1},\beta_t\right )<br>$$</p>
+<p>由于每个时间步相对独立，因此是一个<strong>马尔科夫链</strong>过程，这是下面推导的重要前提：<br>$$<br>q(x_{1:T}):&#x3D;\prod_{t&#x3D;1}^{T}q(x_t|x_{t-1})<br>$$</p>
+<p>下面基于 $x_0$ 和 $\beta_t$ 推导<strong>任意时刻的带噪样本</strong> $x_t$：</p>
+<p><img src="/Assets/a5116fdf4e5b6647275b4b0dfff2292.jpg"><br><img src="/Assets/dad4f3a5305f67ce72de0d9518c13c5.jpg"></p>
+<h2 id="反向过程"><a href="#反向过程" class="headerlink" title="反向过程"></a>反向过程</h2><p>整体上是一个去噪的过程，根据真实分布 $q(x_{t-1}|x_t)$ 从 $x_T$ 采样得到 $x_{T-1}$，一步步逐步还原得到 $x_0$。</p>
+<p>假设真实分布 $q(x_{t-1}|x_t)$ 满足高斯分布，但是无法直接拟合，所以用神经网络估计这一分布：<br>$$<br>p_\theta(x_{t-1}|x_t)&#x3D;N\left( \mu_\theta (x_t,t),\Sigma _\theta (x_t,t)\right)<br>$$</p>
+<p>下面推导<strong>后验条件概率</strong>：<br><img src="/Assets/fe52f2125e868399abe8766bbc29f49.jpg"></p>
+<p>优化目标是使得神经网络估计的分布和后验条件分布越接近越好，KL 散度计算推导，详见 <a href="https://lilianweng.github.io/posts/2021-07-11-diffusion-models/#forward-diffusion-process">What are Diffusion Models?</a>。最终的优化目标是使两者的均值最为接近，进一步重参数化变成<strong>估计噪声</strong>。</p>
+<h2 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h2><p><img src="/Assets/Pasted%20image%2020240520123433.png"><br><img src="/Assets/558c0b1db8643c7cf5c72bad3001cef.jpg"></p>
+<h2 id="注意点"><a href="#注意点" class="headerlink" title="注意点"></a>注意点</h2><ol>
+<li><p>重参数化<br><img src="/Assets/Pasted%20image%2020240520115030.png"></p>
+</li>
+<li><p>$\beta_t$ 的选择</p>
+</li>
+</ol>
+<h2 id="代码演示"><a href="#代码演示" class="headerlink" title="代码演示"></a>代码演示</h2><p><a href="../../Assets/Diffusion%20Model.ipynb">Diffusion Model.ipynb</a></p>
+<ol>
+<li><p>正向加噪过程<br><img src="/Assets/Pasted%20image%2020240520124450.png"></p>
+</li>
+<li><p>经过4000 轮训练后，反向生成结果<br><img src="/Assets/Pasted%20image%2020240520124557.png"></p>
+</li>
+</ol>
+]]></content>
+  </entry>
 </search>
