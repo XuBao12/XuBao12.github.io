@@ -36,6 +36,29 @@
       </tags>
   </entry>
   <entry>
+    <title>骑行记录</title>
+    <url>/2024/06/02/%E9%AA%91%E8%A1%8C%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p>有了自行车之后，我才发现我是如此热爱骑行。骑行它重新定义了自由，逛城市、去乡间，摆脱一周工作的疲惫，用车轮留住人生的风景，记载生命的轨迹。自此，所有美景尽收我眼底，都市乡村没有了距离，四海之内皆为兄弟。</p>
+<iframe height="160" width="70%" frameborder="0" allowtransparency="true" scrolling="no" src="https://www.strava.com/athletes/135607160/activity-summary/25dc9f4c9f65736b6f668561c512cbe429c87ce3"></iframe>
+
+<span id="more"></span>
+<ul>
+<li><div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11544452975" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script></li>
+<li><div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11391929693" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script></li>
+<li><div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11392133920" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script></li>
+<li><div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11392137066" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script></li>
+<li><div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11554646684" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script></li>
+<li><div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11554996788" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script></li>
+<li><div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11554996424" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script></li>
+<li><div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11554818783" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script></li>
+<li><div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11554996647" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>biking</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>基于 Github pages + Hexo 搭建个人博客</title>
     <url>/2024/05/20/%E5%9F%BA%E4%BA%8E%20Github%20pages%20+%20Hexo%20%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h2 id="为什么要搭建个人博客？"><a href="#为什么要搭建个人博客？" class="headerlink" title="为什么要搭建个人博客？"></a>为什么要搭建个人博客？</h2><p>做学习笔记这件事情在我身上发生过很多次变化。最早追溯到大一开始用ipad进行无纸化学习，写下了几乎所有本科课程的笔记。大四时候读论文，为了让Windows端和Ipad端的Endnote论文笔记同步，开始用markdown记录一些随心所得。研究生之后接触到了神级的笔记软件Obsidian，加上用电脑敲代码的时间越来越多，经常随手就在Obsidian里记下了小知识点以及ideas。就这样，现在在我的本地电脑上已经形成了一个庞大的知识图谱体系，甚至于我有时能用Obsidian取代浏览器搜索一些遗忘的小知识点。</p>
