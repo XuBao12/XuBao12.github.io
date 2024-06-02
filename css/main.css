@@ -1447,7 +1447,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #deb381;
+    background: #ffbaff;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1509,11 +1509,6 @@ pre code {
   border: 1px solid #eee;
   max-width: 120px;
   padding: 2px;
-  border-radius: 50%;
-  transition: transform 1s ease-out;
-}
-.site-author-image:hover {
-  transform: rotateZ(360deg);
 }
 .site-author-name {
   color: var(--text-color);
@@ -3027,4 +3022,33 @@ header.header {
   .sidebar {
     display: none;
   }
+}
+/* sidebar social icon */
+.strava {
+  background-image: url("/images/strava.svg");
+  background-size: 1em 1em;
+  opacity: 0.55;
+  background-position: 0.05rem 0.2rem;
+  background-repeat: no-repeat;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 0rem;
+/*鼠标停留在图标上时，图标呈现发光效果*/
+}
+.strava:hover {
+  opacity: 1;
+}
+.bilibili {
+  background-image: url("/images/bilibili.svg");
+  background-size: 1em 1em;
+  opacity: 0.55;
+  background-position: 0.05rem 0.2rem;
+  background-repeat: no-repeat;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 0rem;
+/*鼠标停留在图标上时，图标呈现发光效果*/
+}
+.bilibili:hover {
+  opacity: 1;
 }
