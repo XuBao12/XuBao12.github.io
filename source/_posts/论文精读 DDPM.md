@@ -48,7 +48,7 @@ $itemKey: 7WVAIN6R
 
 下面推导**后验条件概率**： ![](/Assets/fe52f2125e868399abe8766bbc29f49.jpg)
 
-优化目标是使得神经网络估计的分布和后验条件分布越接近越好，KL 散度计算推导，详见 {% post\_link Rethinking-of-Diffusion-Model %}。最终的优化目标是使两者的均值最为接近，进一步重参数化变成**估计噪声**。
+优化目标是使得神经网络估计的分布和后验条件分布越接近越好，KL 散度计算推导，详见 {% post_link Rethinking-of-Diffusion-Model %}。最终的优化目标是使两者的均值最为接近，进一步重参数化变成**估计噪声**。
 
 ## 流程
 
