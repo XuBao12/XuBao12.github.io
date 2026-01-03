@@ -1,0 +1,14 @@
+{
+  "accentColor": "",
+  "theme": "system",
+  "cssTheme": "theme",
+  "baseFontSize": 21,
+  "enabledCssSnippets": [
+    "自定义提示框",
+    "AnuExtendTheme",
+    "extended-colorschemes",
+    "yaozhuwa@CSS"
+  ],
+  "translucency": false,
+  "baseFontSizeAction": true
+}

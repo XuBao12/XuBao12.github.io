@@ -1,0 +1,23 @@
+{
+  "attachmentFolderPath": "Assets",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_posts",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "absolute",
+  "showUnsupportedFiles": true,
+  "livePreview": false,
+  "mobilePullAction": "obsidian-git:pull",
+  "defaultViewMode": "preview",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showLineNumber": false,
+  "useMarkdownLinks": true,
+  "promptDelete": true,
+  "focusNewTab": true,
+  "rightToLeft": false
+}

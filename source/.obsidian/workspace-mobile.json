@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "b4992564f034b9c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "b56ff0a8e3f5ae8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b7aae108ce121a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "358d5f06537dc824",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/服务器使用说明.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "64247c8d2fc19e03",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fc5797d95cca60ff",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "917154e55646fe44",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "d4ea95ba451bdda7",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "0a9372a7cc109683",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0,
+    "pinned": true
+  },
+  "right": {
+    "id": "996cd43c540dd335",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fc5bf3ba58edc7fa",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Notes/服务器使用说明.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e2e83817c50cc564",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Notes/服务器使用说明.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "23aca2ef0dd4bf5a",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Notes/服务器使用说明.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "358d5f06537dc824",
+  "lastOpenFiles": [
+    "README.md",
+    "Assets",
+    "Assets/北京理工大学学生平时成绩登记表.xlsx",
+    "/Notes/服务器使用说明.md",
+    "/Assets/北京理工大学学生平时成绩登记表.xlsx",
+    "/Assets",
+    "Notes/可迭代对象和迭代器.md",
+    "Notes/test1.md",
+    "Notes/服务器使用说明.md",
+    "Notes/assets/image-20231009121456962.png",
+    "Notes/assets/image-20231009121414404.png",
+    "Notes/assets/image-20231008212426884.png",
+    "Notes/assets/服务器账号密码.jpg",
+    "Notes/assets/git分支.jpg",
+    "Notes/assets/20160430221106224.png",
+    "Notes/assets/image-20231009121445718.png",
+    "Notes/assets/image-20231009121424337.png",
+    "Notes/assets",
+    "Notes/assets/image-20231009121312388.png",
+    "/Notes/可迭代对象和迭代器.md",
+    "/Notes/assets/服务器账号密码.jpg",
+    "/Notes/assets",
+    "Notes/Test2.md",
+    "/README.md",
+    "/Notes/test1.md"
+  ]
+}
